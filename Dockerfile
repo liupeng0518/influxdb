@@ -4,6 +4,7 @@ WORKDIR /go/src/github.com/influxdata/influxdb
 COPY Gopkg.toml Gopkg.lock ./
 RUN dep ensure -vendor-only
 COPY . /go/src/github.com/influxdata/influxdb
+RUN mkdir -p /go/src/github.com/influxdata/influxdb/vendor/github.com/pkg/ &&  cd /go/src/github.com/influxdata/influxdb/vendor/github.com/pkg/ && git clone https://github.com/pkg/term.git
 RUN export GOARCH=mips64le && go install ./cmd/...
 
 FROM liupeng0518/debian-debootstrap:mips64el-stretch
