@@ -655,13 +655,13 @@
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
   version = "v0.8.0"
 
-[[projects]]
-  branch = "master"
-  digest = "1:4f43b3c1b7e44980a5f3c593f8bf0e18844dc44f451a071c93e77e28cf990db6"
-  name = "github.com/pkg/term"
-  packages = ["termios"]
-  pruneopts = "UT"
-  revision = "bffc007b7fd5a70e20e28f5b7649bb84671ef436"
+#[[projects]]
+#  branch = "master"
+#  digest = "1:4f43b3c1b7e44980a5f3c593f8bf0e18844dc44f451a071c93e77e28cf990db6"
+#  name = "github.com/pkg/term"
+#  packages = ["termios"]
+#  pruneopts = "UT"
+#  revision = "bffc007b7fd5a70e20e28f5b7649bb84671ef436"
 
 [[projects]]
   digest = "1:70f78dea42b8c0ff38ecf5487eaa79006fa2193fc804fc7c1d7222745d9e2522"
