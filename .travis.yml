@@ -1,9 +1,7 @@
 language:
-  - go 
+  - ruby 
 sudo: required
 services: docker
-go:
-  - "1.11"
 
 script:
   - docker build . -t liupeng0518/influxdb:v1.7.5-mips64le
